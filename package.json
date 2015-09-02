@@ -1,0 +1,30 @@
+{
+    "name": "basic-auth-proxy",
+    "version": "1.0.0",
+    "description": "A tiny proxy forcing basic-auth",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cburgmer/basic-auth-proxy.git"
+    },
+    "keywords": [
+        "basicauth",
+        "proxy",
+        "auth",
+        "authorization"
+    ],
+    "author": "christoph.burgmer@gmail.com",
+    "license": "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/cburgmer/basic-auth-proxy/issues"
+    },
+    "homepage": "https://github.com/cburgmer/basic-auth-proxy#readme",
+    "dependencies": {
+        "basic-auth": "~1.0.3",
+        "http-proxy": "~0.10.0",
+        "optimist": "~0.3.0"
+    }
+}
