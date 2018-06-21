@@ -23,7 +23,7 @@
     },
     "homepage": "https://github.com/cburgmer/basic-auth-proxy#readme",
     "bin": {
-        "basic-auth-proxy" : "./index.js"
+        "basic-auth-proxy": "./index.js"
     },
     "dependencies": {
         "basic-auth": "~1.0.3",

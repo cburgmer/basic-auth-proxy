@@ -24,6 +24,10 @@ function splitHostPort(hostPort) {
     var location = hostPort.split(':'),
         port = location.length === 1 ? 80 : parseInt(location[1], 10);
 
+    if (Number.isNaN(port)) {
+        throw "Illegal port " + location[1];
+    }
+
     return {
         host: location[0],
         port: port
